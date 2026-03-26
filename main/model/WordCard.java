@@ -8,16 +8,14 @@ public class WordCard {
     private String meaning;
     private String example;
 
-    //생성자
+    //생성자 오버로딩
     public WordCard(String word) {
         this.word = word;
     }
-
     public WordCard(String word, String meaning) {
         this.word = word;
         this.meaning = meaning;
     }
-
     public WordCard(String word, String meaning, String example) {
         this.word = word;
         this.meaning = meaning;
@@ -29,7 +27,7 @@ public class WordCard {
         this.example = example;
     }
 
-    //카드 출력 메서드
+    //카드 데이터 출력 메서드
     public void printCard() {
         System.out.println("단어: " + word);
         System.out.println("뜻: " + meaning);
@@ -37,14 +35,13 @@ public class WordCard {
         System.out.println();
     }
 
+    //get 메서드
     public String getWord() {
         return word;
     }
-
     public String getMeaning() {
         return meaning;
     }
-
     public String getExample() {
         return example;
     }
