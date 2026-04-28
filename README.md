@@ -23,22 +23,17 @@ Anki 프로그램은 매일매일 사용하고 있으며 추가했으면 좋을 
 직접 기능을 설계하고 프론트엔드·백엔드·데이터베이스를 연결하며  
 풀스택 개발 흐름을 익히는 데 초점을 두었습니다.
 
-## Brief History
-
-260327 - 콘솔 프로그램 완성 // Spring, Database 학습 후 재개 예정
-
 ## Tech Stack
 
 ### Frontend
-- Node.js
-- React *(또는 사용 예정 기술로 수정 가능)*
+- Thymeleaf ( 추후 전환 예정 )
 
 ### Backend
 - Java
 - Spring Boot
 
 ### Database
-- MySQL *(또는 PostgreSQL로 변경 가능)*
+- H2
 
 ### Tools
 - Git
